@@ -1,29 +1,19 @@
 /* Generals */
 body{
-  height: 5000px;
+  height: 2000px;
   font-family: 'Open Sans', sans-serif;
   padding-top: 80px;
 }
 
 /* utility */
-
-.star{
+[class^='star']{
   max-width: 200px;
   min-width: 100%;
   margin: 30px auto;
 }
 
-.star i{
-  color: black;
-  line-height: 4px;
-  font-size: 20px;
-  display: inline-block;
-  vertical-align: middle;
-  padding: 0 15px;
-}
-
-.star::before,
-.star::after{
+.star_b::before,
+.star_b::after{
   content: '';
   display: inline-block;
   width: 10%;
@@ -32,6 +22,36 @@ body{
   line-height: 4px;
   vertical-align: middle;
   background-color: black;
+}
+
+.star_b i{
+  color: black;
+  line-height: 4px;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 15px;
+}
+
+.star_w::before,
+.star_w::after{
+  content: '';
+  display: inline-block;
+  width: 10%;
+  height: 4px;
+  border-radius: 2px;
+  line-height: 4px;
+  vertical-align: middle;
+  background-color: white;
+}
+
+.star_w i{
+  color: white;
+  line-height: 4px;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 15px;
 }
 
 .margin_bot{
@@ -96,7 +116,6 @@ body{
 
 .background_green{
   background: #1bbc9b;
-
 }
 
 #jumbotron img{
@@ -108,9 +127,9 @@ body{
   background-color: white;
 }
 
-#jumbotron .star i{
+/* #jumbotron .star i{
   color: white;
-}
+} */
 
 
 #jumbotron h3{
@@ -177,6 +196,41 @@ body{
   display: inline;
 }
 
+/* section 2 main */
+
+#section_2{
+  text-align: center;
+  color: white;
+  padding: 40px 0;
+}
+
+#section_2 h2{
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+}
+
+#section_2 .star_w{
+  margin: 15px 0;
+}
+
+#section_2 p{
+  font-size: 18px;
+  padding: 5px 15px 15px;;
+  text-align: justify;
+}
+
+#section_2 .btn-default{
+  border: 1px solid white;
+  border-radius: 5px;
+  background: #1bbc9b;
+  color: white;
+}
+
+#section_2 .btn-default i{
+  padding-right: 10px;
+  /* color: white; */
+}
 
 
 
