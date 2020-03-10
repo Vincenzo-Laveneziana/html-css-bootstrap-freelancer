@@ -56,6 +56,10 @@ body{
   margin-bottom: 5px;
 }
 
+.a_green{
+  color: #1bbc9b;
+}
+
 
 /* header */
 
@@ -249,7 +253,7 @@ body{
 }
 
 #section_3 .star_b {
-  margin: 15px 0;
+  margin: 15px auto;
 }
 
 #section_3 .form_text textarea,
@@ -284,6 +288,46 @@ body{
   border: 0;
   padding: 10px 20px;
   border-radius: 7px;
+}
+
+/* footer */
+
+/* footer section 1 */
+
+#f_section_1{
+  background: #3a546d;
+  margin-top: 35px;
+  padding: 25px 0;
+  color: white;
+  text-align: center;
+}
+
+#f_section_1 h3{
+  text-transform: uppercase;
+  padding: 5px 0;
+}
+
+#f_section_1 p{
+  font-size: 20px;
+}
+
+#f_section_1 .social a{
+  margin: 0 10px;
+}
+
+#f_section_1 .social i{
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 50px;
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+}
+
+#f_section_1 .a_green:hover{
+  color: #1bbc9b;
+  text-decoration: underline;
 }
 
 
