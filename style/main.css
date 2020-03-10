@@ -1,8 +1,8 @@
 /* Generals */
 body{
-  height: 2000px;
+  height: 3000px;
   font-family: 'Open Sans', sans-serif;
-  padding-top: 80px;
+  padding-top: 75px;
 }
 
 /* utility */
@@ -19,7 +19,6 @@ body{
   width: 10%;
   height: 4px;
   border-radius: 2px;
-  line-height: 4px;
   vertical-align: middle;
   background-color: black;
 }
@@ -40,7 +39,6 @@ body{
   width: 10%;
   height: 4px;
   border-radius: 2px;
-  line-height: 4px;
   vertical-align: middle;
   background-color: white;
 }
@@ -68,10 +66,10 @@ body{
   border-radius: 0;
   border-color: #2d3e50;
   border: 0;
+
 }
 
 .navbar{
-  min-height: 80px;
   margin: 0;
 }
 
@@ -84,18 +82,18 @@ body{
   text-transform: uppercase;
   font-size: 25px;
   font-weight: 600;
-  padding: 0 15px;
-  height: 80px;
-  line-height: 80px;
+  padding: 2px 15px;
+  line-height: 75px;
+  height: 75px;
 }
 
 .navbar-default .navbar-nav>li>a {
   color: white;
   text-transform: uppercase;
   font-weight: 600;
-  padding-top: 26.5px;
-  padding-bottom: 26.5px;
-  line-height: 27px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  line-height: 25px;
 }
 
 .navbar-toggle {
@@ -202,6 +200,7 @@ body{
   text-align: center;
   color: white;
   padding: 40px 0;
+  margin: 25px auto;
 }
 
 #section_2 h2{
@@ -232,6 +231,60 @@ body{
   /* color: white; */
 }
 
+/* section 3 main */
+
+#section_3{
+  margin: 0 auto;
+}
+
+#section_3 .container{
+  width: 1000px;
+  max-width: 80%;
+}
+
+#section_3 h2:first-child {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+#section_3 .star_b {
+  margin: 15px 0;
+}
+
+#section_3 .form_text textarea,
+#section_3 .form_text input{
+  margin: 10px auto;
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  padding: 15px 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid black;
+}
+
+#section_3 .form_input{
+  outline: 0;
+}
+
+#section_3 input[type="text"]::-webkit-input-placeholder,
+#section_3 input[type="email"]::-webkit-input-placeholder,
+#section_3 textarea::-webkit-input-placeholder {
+ /* Chrome/Opera/Safari */
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+#section_3 .btn-default{
+  background: #1bbc9b;
+  color: white;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
 
 
 
