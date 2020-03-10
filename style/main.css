@@ -1,6 +1,5 @@
 /* Generals */
 body{
-  height: 3000px;
   font-family: 'Open Sans', sans-serif;
   padding-top: 75px;
 }
@@ -103,6 +102,19 @@ body{
 .navbar-toggle {
   margin-top: 23px;
   padding: 9px 10px !important;
+}
+
+.navbar-default .navbar-toggle{
+  border-color: #1bbc9b;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #2d3e50;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #1bbc9b;
 }
 
 /* jumbotron */
@@ -326,6 +338,24 @@ body{
 }
 
 #f_section_1 .a_green:hover{
+  color: #1bbc9b;
+  text-decoration: underline;
+}
+
+/* footer sezione 2 */
+
+#f_section_2{
+  text-align: center;
+  background: #2d3e50;
+
+}
+
+#f_section_2 h4{
+  line-height: 100px;
+  color: white;
+}
+
+#f_section_2 .a_green:hover{
   color: #1bbc9b;
   text-decoration: underline;
 }
